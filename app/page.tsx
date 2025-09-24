@@ -111,10 +111,11 @@ export default function Home() {
       <section className="py-20 px-6 bg-mauve/10 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-heading font-bold mb-8 text-burgundy">Our Love Story</h2>
-          <p className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto">
-            {/* ✍️ REPLACE THIS WITH YOUR OWN STORY */}
-            We met under the stars, laughed through the rain, and chose each other every single day since. 
-            This is not an ending — it’s the most beautiful beginning.
+          <p className="text-lg md:text-xl leading-relaxed max-w-3xl mx-auto opacity-0 animate-fade-in-up">
+            We were study buddies first — passing notes, sharing laughs, building a friendship that quietly grew into love.  
+            Through every season, we’ve chosen each other, again and again.  
+            Now, as we stand at the threshold of forever, we’re ready to say “I do” —  
+            not just to marriage, but to a lifetime of choosing us.
           </p>
         </div>
       </section>
