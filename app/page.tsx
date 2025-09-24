@@ -138,22 +138,36 @@ export default function Home() {
       </section>
 
       {/* Map */}
-      <section className="py-20 px-6 bg-mauve/10 text-center">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-heading font-bold mb-8 text-burgundy">📍 Find Us</h2>
-          <div className="aspect-video max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.474828438722!2d3.9443000494620675!3d7.424385359294775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ecb5fbf5826b%3A0x514422d1871d0285!2sProvidence%20Baptist%20Church!5e0!3m2!1sen!2sng!4v1758709471622!5m2!1sen!2sng" 
-                width="100%" 
-                height="100%" 
-                style={{border: 0}} 
-                allowFullScreen 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-        </div>
-      </section>
+<section className="py-20 px-6 bg-mauve/10 text-center">
+  <div className="max-w-4xl mx-auto">
+    <h2 className="text-4xl font-heading font-bold mb-8 text-burgundy">📍 Find Us</h2>
+    <div className="aspect-video max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg mb-6">
+      <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7912.7491177457905!2d3.967494!3d7.423735000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ecb5fbf5826b%3A0x514422d1871d0285!2sProvidence%20Baptist%20Church!5e0!3m2!1sen!2sng!4v1758712141696!5m2!1sen!2sng" 
+      width="600" 
+      height="450" 
+      style={{border: 0}} 
+      allowFullScreen 
+      loading="lazy" 
+      referrerPolicy="no-referrer-when-downgrade">
+
+      </iframe>
+    </div>
+
+    {/* Get Directions Button */}
+    <a
+      href="https://www.google.com/maps/dir/?api=1&destination=7.425852019426211, 3.967804966999824"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-rose-gold hover:bg-opacity-90 text-white font-medium py-3 px-8 rounded-full shadow-md transition-all duration-300 hover:scale-105"
+    >
+      🗺️ Get Directions
+    </a>
+    <p className="text-sm text-gray-600 mt-4">
+      Opens in Google Maps — perfect for mobile navigation
+    </p>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="py-12 px-6 bg-burgundy text-white text-center">
