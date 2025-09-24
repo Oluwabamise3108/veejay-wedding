@@ -142,15 +142,15 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-heading font-bold mb-8 text-burgundy">📍 Find Us</h2>
           <div className="aspect-video max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.800287883695!2d3.897467675231264!3d7.380893316624259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398e4b8a4d5e0d%3A0x3e4a7b8e8e8e8e8e!2sProvidence%20Baptist%20Church%2C%20Ibadan!5e0!3m2!1sen!2sng!4v1710000000000!5m2!1sen!2sng"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15825.474828438722!2d3.9443000494620675!3d7.424385359294775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ecb5fbf5826b%3A0x514422d1871d0285!2sProvidence%20Baptist%20Church!5e0!3m2!1sen!2sng!4v1758709471622!5m2!1sen!2sng" 
+                width="100%" 
+                height="100%" 
+                style={{border: 0}} 
+                allowfullscreen 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </section>
