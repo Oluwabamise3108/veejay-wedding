@@ -144,8 +144,8 @@ export default function Home() {
     <div className="aspect-video max-w-3xl mx-auto rounded-lg overflow-hidden shadow-lg mb-6">
       <iframe 
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7912.7491177457905!2d3.967494!3d7.423735000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ecb5fbf5826b%3A0x514422d1871d0285!2sProvidence%20Baptist%20Church!5e0!3m2!1sen!2sng!4v1758712141696!5m2!1sen!2sng" 
-      width="600" 
-      height="450" 
+      width="100%" 
+      height="100%" 
       style={{border: 0}} 
       allowFullScreen 
       loading="lazy" 
