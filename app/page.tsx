@@ -66,7 +66,7 @@ export default function Home() {
       <section 
         className="relative h-screen flex items-center justify-center bg-cover bg-top bg-no-repeat overflow-hidden"
         style={{ 
-          backgroundImage: 'url(/images/hero.jpg)',
+          backgroundImage: 'url(/images/hero_modified.webp)',
           backgroundPosition: 'top center',
           backgroundSize: '100% auto'
         }}
@@ -125,11 +125,12 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-heading font-bold mb-12 text-center text-burgundy">Our Moments</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {['/images/couple4.jpg', '/images/couple1.jpg', '/images/couple2.jpg', '/images/couple3.jpg', '/images/couple5.jpg'].map((src, i) => (
+            {['/images/couple4_modified.webp', '/images/couple1_modified.webp', '/images/couple2_modified.webp', '/images/couple3_modified.webp', '/images/couple5_modified.webp'].map((src, i) => (
               <div key={i} className="aspect-square overflow-hidden rounded-lg shadow-lg group">
                 <img
                   src={src}
                   alt={`Couple moment ${i + 1}`}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
