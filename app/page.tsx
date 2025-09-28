@@ -173,10 +173,9 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 px-6 bg-burgundy text-white text-center">
-        <p className="text-xl">
-            Thank you for being part of our forever ❤️
-            We can't wait to celebrate with you
-        </p>
+        <p className="text-xl mb-2">Thank you for being part of our forever ❤️</p>
+        <p className="text-xl text-rose-gold mb-2">• • •</p>
+        <p className="text-xl">We can't wait to celebrate with you</p>
       </footer>
     </div>
   );
