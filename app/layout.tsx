@@ -21,18 +21,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Preconnect to critical third-party origins */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        {/* Optional: Preconnect to Vercel CDN (improves asset load) */}
         <link rel="preconnect" href="https://veejay-wedding.vercel.app" />
         <link rel="dns-prefetch" href="https://veejay-wedding.vercel.app" />
       </head>
-      <body>{children}</body>
+      <body
+        data-gramm="false"
+        data-gramm_editor="false"
+        data-enable-grammarly="false"
+        spellCheck="false"
+      >
+        {children}
+      </body>
     </html>
   );
 }
