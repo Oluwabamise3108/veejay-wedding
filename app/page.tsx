@@ -76,7 +76,7 @@ export default function Home() {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold mb-4 leading-tight">
             Victoria & Jude
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl mb-8 italic">Are getting married</p>
+          <p className="text-lg sm:text-xl md:text-2xl mb-8 italic">Invite you to witness their union</p>
           <div className="bg-white/20 backdrop-blur-sm rounded-lg p-6 inline-block mb-8">
             <p className="text-2xl md:text-4xl font-semibold">
               {daysLeft} days to forever
