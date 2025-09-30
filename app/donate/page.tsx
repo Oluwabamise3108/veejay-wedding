@@ -39,7 +39,7 @@ export default function DonatePage() {
         </div>
 
         <div className="bg-rose-gold/10 p-6 rounded-lg text-center">
-          <p className="text-lg mb-4">📲 <strong>You may also send us a private message on WhatsApp — visible only to us.</strong></p>
+          <p className="text-lg mb-4">📲 <strong>You may also send us a private message on WhatsApp.</strong></p>
           <div className="mt-6 pt-6 border-t border-rose-gold/30">
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
