@@ -39,11 +39,17 @@ export default function DonatePage() {
         </div>
 
         <div className="bg-rose-gold/10 p-6 rounded-lg text-center">
-          <p className="text-lg mb-4">📲 <strong>Kindly notify us after transfer via WhatsApp:</strong></p>
-          <p className="text-xl font-semibold">+234 818 434 0327, +234 818 059 9604</p>
-          <p className="text-sm text-gray-600 mt-4">
-            You may also leave us a private message — visible only to us.
-          </p>
+          <p className="text-lg mb-4">📲 <strong>You may also send us a private message on WhatsApp — visible only to us.</strong></p>
+          <div className="mt-6 pt-6 border-t border-rose-gold/30">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a
+              href="https://wa.me/2348184340327?text=Hello%20Bamise%20%26%20Kehinde%2C%0A%0AWe%27re%20so%20happy%20for%20you%20both%21%20We%20just%20sent%20a%20wedding%20gift%20to%20your%20account.%20Here%27s%20a%20little%20note%20just%20for%20you%3A%0A%0A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-green-500 hover:bg-green-600 text-white px-5 py-2.5 rounded-lg text-center text-sm font-medium transition shadow-md hover:shadow">
+            </a>
+          </div>
+        </div>
         </div>
       </div>
     </div>
