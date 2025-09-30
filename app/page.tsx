@@ -41,7 +41,7 @@ export default function Home() {
         <source src="/audio/the-best-part.mp3" type="audio/mpeg" />
       </audio>
 
-      {/* Floating Music Button (Top Right) */}
+      {/* Floating Music Button */}
       <button
         onClick={toggleMusic}
         className="fixed top-6 right-6 z-50 bg-rose-gold text-white p-4 rounded-full shadow-xl hover:scale-110 transition-all duration-300"
@@ -50,7 +50,7 @@ export default function Home() {
         {isPlaying ? '⏸️' : '▶️'}
       </button>
 
-      {/* Floating Cash Gift Button (Bottom Right) */}
+      {/* Floating Cash Gift Button */}
       <Link href="/donate" aria-label="Cash Gift">
         <div className="fixed bottom-6 right-6 z-50 bg-burgundy text-white p-4 rounded-full shadow-xl hover:scale-110 hover:shadow-2xl transition-all duration-300 animate-pulse group">
           <div className="flex flex-col items-center">
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </Link>
 
-      {/* Hero Section — Fullscreen, Zoomed Out, Top-Aligned */}
+      {/* Hero Section */}
       <section 
         className="relative h-screen flex items-center justify-center bg-cover bg-top bg-no-repeat overflow-hidden"
         style={{ 
@@ -125,7 +125,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-heading font-bold mb-12 text-center text-burgundy">Our Moments</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {['/images/couple4_modified.webp', '/images/couple1_modified.webp', '/images/couple2_modified.webp', '/images/couple3_modified.webp', '/images/couple5_modified.webp'].map((src, i) => (
+            {['/images/couple4_modified.webp', '/images/couple1_modified.webp', '/images/couple2_modified.webp', '/images/couple3_modified.webp', '/images/couple5_modified.webp', '/images/couple6.jpg'].map((src, i) => (
               <div key={i} className="aspect-square overflow-hidden rounded-lg shadow-lg group">
                 <img
                   src={src}
