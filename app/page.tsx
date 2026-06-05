@@ -77,6 +77,7 @@ export default function Home() {
       <section id="gallery" className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-heading font-bold mb-12 text-burgundy">Wedding Highlights</h2>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {[
               '/images/highlight-1.webp', '/images/highlight-2.webp', '/images/highlight-3.webp', 
@@ -89,14 +90,25 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <a
-            href="https://photos.app.goo.gl/k6ibAp9BeochPJ438"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-burgundy hover:bg-opacity-90 text-white font-medium py-4 px-10 rounded-full shadow-xl transition-all duration-300 hover:scale-105 text-lg"
-          >
-            📸 View & Download Full Wedding Gallery
-          </a>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://photos.app.goo.gl/k6ibAp9BeochPJ438"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-burgundy hover:bg-opacity-90 text-white font-medium py-4 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+            >
+              📸 View Gallery Part I
+            </a>
+            <a
+              href="https://photos.app.goo.gl/jDYpDUrsrXf5Qj4W7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-rose-gold hover:bg-opacity-90 text-white font-medium py-4 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105"
+            >
+              📸 View Gallery Part II
+            </a>
+          </div>
         </div>
       </section>
 
