@@ -2,8 +2,8 @@ import './globals.css';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Victoria & Jude • 13.12.2025 • Ibadan, Nigeria',
-  description: 'You’re invited to celebrate the wedding of Victoria Kehinde Adika & Oluwabamise Jude Ezekiel. Join us in Ibadan as we say “I do” on December 13, 2025.',
+  title: 'Victoria & Jude • Wedding Archive',
+  description: 'The wedding archive and gallery of Victoria Kehinde Adika & Oluwabamise Jude Ezekiel. Thank you for celebrating with us in Ibadan on December 13, 2025.',
   icons: {
     icon: '/favicon.ico',
     apple: '/icons/apple-touch-icon.png',
